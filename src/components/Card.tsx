@@ -1,4 +1,9 @@
-const Card = ({title, poster}) => {
+type CardProps = {
+    title: string,
+    poster: string
+}
+
+const Card = ({title, poster}: CardProps) => {
 // const Card = () => {
     return ( 
         <div className="group p-2 bg-slate-600 rounded-xl max-w-56 transition-colors duration-200 cursor-pointer hover:bg-slate-700">

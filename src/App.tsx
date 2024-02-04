@@ -30,7 +30,7 @@ function App() {
     setAllMovies(paginatedMovies[0]);
   } 
 
-  function chunkArray(movies, chunkSize=15):Array<{}> {
+  function chunkArray(movies:any, chunkSize=15):Array<{}> {
     const result = [];
     for (let i = 0; i < movies.length; i += chunkSize) {
         result.push(movies.slice(i, i + chunkSize));
@@ -85,7 +85,7 @@ function App() {
 
           {/* <div className='lg:gap-x-5 md:grid md:gap-y-4 md:grid-cols-auto-fill-md xs:grid-cols-auto-fill-sm xs:gap-x-4 '> */}
           <div className='lg:gap-x-5 md:grid md:gap-y-4 md:grid-cols-auto-fill-md'>
-            {movies.length > 0 && width > 550 && movies[pageIndex].map((movie)=>(
+            {movies.length > 0 && width > 550 && movies[pageIndex].map((movie:any)=>(
               <Card 
               key={movie.id}
               poster={movie.image}
