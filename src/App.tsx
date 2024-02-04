@@ -72,7 +72,7 @@ function App() {
         </header>
         <main className='pt-40 px-4'>
           <h1 className='text-6xl font-bold text-white/80'>Kriet</h1>
-          <p className='text-lg text-white lg:w-1/2 md:w-3/5 mt-7'>List of movies and TV Shows, I, Kriet have watched till date. Explore what I have watched and also feel free to make a suggestion. 😉</p>
+          <p className='text-lg text-white lg:w-1/2 md:w-3/5 mt-7'>List of movies and TV Shows, I, Kriet have watched till this date. Explore what I have watched and also feel free to make a suggestion. 😉</p>
           
           <div className='flex items-center gap-3 border-2 border-gray-600 rounded-xl p-4 mt-4 lg:w-2/6 md:w-3/5'>
             <CiSearch 

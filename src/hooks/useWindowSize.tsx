@@ -17,8 +17,8 @@ const useWindowSize = () => {
   }, []);
 
   return {
-    width: windowSize[1],
-    height: windowSize[0]
+    width: windowSize[0],
+    height: windowSize[1]
   };
 };
 
