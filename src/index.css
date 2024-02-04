@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skeleton {
+  background-image: linear-gradient(
+  105deg,
+  transparent 0%,
+  transparent 40%,
+  #94a3b8 50%,
+  transparent 60%,
+  transparent 100%
+);
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /* background-color: #120F31; */
+  background-image: url('./assets/grainy_bg.jfif');
+  color: #9ca3af;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
