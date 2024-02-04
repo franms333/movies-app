@@ -14,7 +14,7 @@ The app features:
     - API: https://simkl.docs.apiary.io/#introduction/about-simkl-api
     - GraphQL
 
-The application is deployed in Vercel, you can check a live demo through this link: 
+The application is deployed in Vercel, you can check a live demo through this link: https://movies-app-two-weld.vercel.app/
 
 ## npm run dev
 
